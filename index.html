@@ -1,78 +1,78 @@
-<!DOCTYPE html>
-<html lang="en" id="top">
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>HCI Term Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body id="body">
 
-  <title>HCI Term Project</title>
+		<div class="wrapper d-flex align-items-stretch" id="wrapper">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+	  		<h1><a href="index.html" class="logo">//TODO</a></h1>
+        <ul class="list-unstyled components">
+          <li class="active" onclick="fadeChange(-1)">
+            <a href="#"><span class="mr-3"></span>Project Description</a>
+          </li>
+          <li id="milestone0" onclick="fadeChange(0)">
+            <a href="#"><span class="mr-3"></span>Milestone 0</a>
+          </li>
+          <li id="milestone1" onclick="fadeChange(1)">
+            <a href="#"><span class="mr-3"></span>Milestone 1</a>
+          </li>
+          <li id="milestone2" onclick="fadeChange(2)">
+            <a href="#"><span class="mr-3"></span>Milestone 2</a>
+          </li>
+        </ul>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    	</nav>
 
-  <!-- Custom styles for this template -->
-  <link href="css/simple-sidebar.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <div class="d-flex" id="wrapper">
-
-    <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Milestones</div>
-      <div class="list-group list-group-flush">
-        <a href="#milestone0" class="list-group-item list-group-item-action bg-light">Milestone 0: IRB Training</a>
-        <a href="#milestone1" class="list-group-item list-group-item-action bg-light">Milestone 1: Problem Proposal</a>
-        <a href="#milestone2" class="list-group-item list-group-item-action bg-light">Milestone 2: Definition and Related Work</a>
-      </div>
-    </div>
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <h1>//TODO</h1>
-      </nav>
-
-      <div class="container-fluid">
-      </div>
-
-      <div class="container-fluid">
-        <h2 class="mt-4">Project Description</h2>
-        <p class="mt-2 lead">Team Members: Oscar Lopez, Holly Northen, Bryan Smith, Dakota Vickers, Clayton Seals</p>
-        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum cursus velit. Curabitur blandit ut sapien in varius. Nullam semper interdum rutrum. In dolor nisi, blandit nec iaculis sed, aliquam a mi. Maecenas id felis sit amet libero ultricies pretium. Proin egestas felis id justo condimentum viverra. Aliquam congue ultrices lectus sit amet iaculis. Morbi eleifend in magna nec facilisis. Maecenas vel enim sed nisi malesuada auctor. Praesent quam nisl, ultrices a nisi eget, semper sodales justo. Sed vel vulputate lectus. Ut posuere risus massa, ac euismod dui sodales in. Quisque commodo, felis in ullamcorper posuere, velit sapien tempor libero, porttitor fringilla lacus magna non sapien. Etiam vitae justo blandit, cursus quam non, lacinia erat.</p>
+      <!-- Page Content  -->
+      <div id="project_description" class="p-4 p-md-5 pt-5 content">
+        <h2 class="mb-4">Project Description</h2>
+        <p class="lead">Team Members: Oscar Lopez, Holly Northen, Bryan Smith, Dakota Vickers, Clayton Seals</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-      <div class="container-fluid" id="milestone0">
-        <h2 class="mt-4">Milestone 0: IRB Training</h2>
-        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum cursus velit. Curabitur blandit ut sapien in varius. Nullam semper interdum rutrum. In dolor nisi, blandit nec iaculis sed, aliquam a mi. Maecenas id felis sit amet libero ultricies pretium. Proin egestas felis id justo condimentum viverra. Aliquam congue ultrices lectus sit amet iaculis. Morbi eleifend in magna nec facilisis. Maecenas vel enim sed nisi malesuada auctor. Praesent quam nisl, ultrices a nisi eget, semper sodales justo. Sed vel vulputate lectus. Ut posuere risus massa, ac euismod dui sodales in. Quisque commodo, felis in ullamcorper posuere, velit sapien tempor libero, porttitor fringilla lacus magna non sapien. Etiam vitae justo blandit, cursus quam non, lacinia erat.</p>
+      <!-- Milestone 0 -->
+      <div id="milestone0-content" class="p-4 p-md-5 pt-5 content">
+        <h2 class="mb-4">IRB Training</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-      <div class="container-fluid" id="milestone1">
-        <h2 class="mt-4">Milestone 1: Problem Proposal</h2>
-        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum cursus velit. Curabitur blandit ut sapien in varius. Nullam semper interdum rutrum. In dolor nisi, blandit nec iaculis sed, aliquam a mi. Maecenas id felis sit amet libero ultricies pretium. Proin egestas felis id justo condimentum viverra. Aliquam congue ultrices lectus sit amet iaculis. Morbi eleifend in magna nec facilisis. Maecenas vel enim sed nisi malesuada auctor. Praesent quam nisl, ultrices a nisi eget, semper sodales justo. Sed vel vulputate lectus. Ut posuere risus massa, ac euismod dui sodales in. Quisque commodo, felis in ullamcorper posuere, velit sapien tempor libero, porttitor fringilla lacus magna non sapien. Etiam vitae justo blandit, cursus quam non, lacinia erat.</p>
+      <!-- Milestone 1 -->
+      <div id="milestone1-content" class="p-4 p-md-5 pt-5 content">
+        <h2 class="mb-4">Problem Proposal</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-      <div class="container-fluid" id="milestone2">
-        <h2 class="mt-4">Milestone 2: Definition and Related Work</h2>
-        <div class="embed-responsive embed-responsive-21by9">
+      <!-- Milestone 2 -->
+      <div id="milestone2-content" class="p-4 p-md-5 pt-5 content">
+        <h2 class="mb-4">Definition and Related Work</h2>
+        <div class="embed-responsive embed-responsive-16by9">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/O8993Nxv7Gc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
-    </div>
-    <!-- /#page-content-wrapper -->
 
-  <!-- /#wrapper -->
+		</div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
