@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 /*!
  * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
  * Copyright 2013-2020 Start Bootstrap
