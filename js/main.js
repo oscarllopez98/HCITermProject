@@ -28,12 +28,12 @@ function fadeChange(changeTo){
 		});
 
 		if (changeTo == -1){
-			//$("#project_description").delay(700).fadeIn("slow");
 			$("#project_description").show();
 		}
 		else {
-			//$("#milestone" + changeTo + "-content").delay(700).fadeIn("slow");
 			$("#milestone" + changeTo + "-content").show();
+			$("#milestone" + changeTo + "-content").height("100%");
+
 		}
 	});
 }
