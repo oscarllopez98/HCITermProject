@@ -42,30 +42,84 @@
       <div id="project_description" class="p-4 p-md-5 pt-5 content">
         <h2 class="mb-4">Project Description</h2>
         <p class="lead">Team Members: Oscar Lopez, Holly Northen, Bryan Smith, Dakota Vickers, Clayton Seals</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
       <!-- Milestone 0 -->
       <div id="milestone0-content" class="p-4 p-md-5 pt-5 content">
         <h2 class="mb-4">IRB Training</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>In order to conduct human subjects research, each member of our team was first required to obtain the appropiate certifcation. Training was provided by the Collaborative IRB Training Initiative (CITI).</p>
       </div>
 
       <!-- Milestone 1 -->
       <div id="milestone1-content" class="p-4 p-md-5 pt-5 content">
         <h2 class="mb-4">Problem Proposal</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Remote learning, although connected, is actually very disconnected, meaning there is limited interaction between users. Our group identified the problem being there currently does not exist a two sided IDE, an IDE that can be simultaneously edited and run by two or more people with results displaying in real time, that allows users to engage in pair/cooperative programming.</p>
+        <p>If one were to exist it would allow the teacher and student to have live interactive lessons, and allow for pairs working on projects together to work live remotely. Looking at Teletype for Atom we realized our idea was similar to Atom. However, we believe we are aiming for more autonomy. We want to allow developers to move independently from each other.</p>
+        <p><i>Two people, one laptop, infinite solutions.</i></p>
       </div>
 
       <!-- Milestone 2 -->
       <div id="milestone2-content" class="p-4 p-md-5 pt-5 content">
         <h2 class="mb-4">Definition and Related Work</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/O8993Nxv7Gc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <ul id="milestone2-nav-tabs" class="nav nav-tabs py-1">
+          <li id="nav-tabs-video" class="active px-4"><a data-toggle="tab" href="#video">Video</a></li>
+          <li id="nav-tabs-task" class="px-4"><a data-toggle="tab" href="#task">Task/Problem Definition</a></li>
+          <li id="nav-tabs-analysis" class="px-4"><a data-toggle="tab" href="#analysis">Analysis of Existing Solutions</a></li>
+          <li id="nav-tabs-solution" class="px-4"><a data-toggle="tab" href="#solution">Proposed Solution</a></li>
+          <li id="nav-tabs-measuring" class="px-4"><a data-toggle="tab" href="#measuring">Measuring Success</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div id="video" class="tab-pane fade in active">
+            <div class="embed-responsive embed-responsive-21by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/O8993Nxv7Gc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div id="task" class="tab-pane fade">
+            <h3 class="lead">Task/Problem Definition</h3>
+            <p>Remote work is increasingly important in the modern COVID-afflicted society. There exist many tools to facilitate tele-collaboration on all sorts of projects, but few mainstream options for remote tandem software development.  This is a problem both educationally and professionally.  Having a more effective platform for collaborating on software development can facilitate better planning, and therefor better performance and evaluation of software both by colleagues and instructors. As we see from Hattie and Timperley, better evaluation and feedback can help to improve student outcomes[1]. Our research and resulting solution will focus on how we can provide an effective learning tool to help improve student code quality and speed of completion for group assignments. A typical interaction related to our research problem would be one that many UGA Computer Science students are familiar with: That of attempting to organize and complete group work remotely. Framed within the Seven Stages of Action[2] we can describe the interaction as follows:
+              <ol>
+                <li>Goal: The goal of our participants is to solve a computer programming problem without face-to-face interaction.</li>
+                <li>Planning: Our participants would need to complete this task through some sort of remote communications application (maybe something we could consider integrating into our solution in the future), and agree on when, for how long, and on what they will be working.</li>
+                <li>Specify: Participants can currently specify tasks needing complete both verbally and in writing.</li>
+                <li>Perform: If all goes according to plan, students will perform the specified actions within the specified time frame.</li>
+                <li>Perceive: Participants will perceive the status of their work based on feedback from peers, and effectiveness of their solution based on testing.</li>
+                <li>Feedback: Results can be evaluated by group members by their own pre-determined metrics, done after each participant has submitted his or her portion of the work.</li>
+                <li>Compare: Results are compared to the original goals laid out in the planning and goal phases, and actions are taken (or not) based on the level of success.</li>
+              </ol>
+          </p>
+          <p>Our goal is to make our interface useful to student coders.  Tandem coding and group projects are important practices in both the academic and professional arenas, and while solutions to this problem exist, none are without flaws.  Our solution would allow instructors to see how their students are attacking a given problem in real time and offer valuable feedback.  It would also allow a coding partner or senior developer to either catch mistakes on the fly or work on a separate section of the implementation, making for more effective debugging and efficient project completion.  We will focus on flexibility, autonomy, and feedback tools to facilitate a good learning environment for our users.
+          </p>
+          </div>
+          <div id="analysis" class="tab-pane fade">
+            <h3 class="lead">Analysis of Existing Solutions</h3>
+            <p>Our problem of study is remote learning and the ways we can improve it to better suit the needs of students who are just beginning their journey of programming. There are a few existing solutions for our problem of study including the following: Git Duck, Code Together, and Code Sandbox. All this software has specific pros. Git Duck is a recent solution from 2019 that focuses on a collaborative coding experience with built in video chat options. Code Together is a pair programming add-on where one hosts a screen share of their ide for another programmer to join in. Code Sandbox is the most interesting option out of the three because it focuses on web development. Furthermore, CodeSandbox was created with a classroom setting in mind with its Classroom Mode feature, which allows the host to allow participants to edit, as if in a classroom whiteboard scenario. The key is that all of these technologies focus on the pair programming experience of developers. However, that is where the issue lies, these solutions are made for the experienced, not the novice. There is a need for a pair programming experience designed for students, by students, who understand the struggles of embarking on the journey into programming.
+            </p>
+            <p>There are not any formal, accepted guidelines in place for how any kind of IDE should be developed. However, most IDEs are developed with at least these three core principles in mind: unique features, high performance, and interface simplicity. Which of these principles a particular IDE’s development team focuses on is often subject to the primary use case of that IDE. For IDEs primarily used for a specific language or framework, like IntelliJ or Pycharm, having features unique to that programming language to help expedite the development process is essential to focus on. For other IDEs like Android Studio and Xcode, which have emulators running inside of what are already very feature-heavy IDEs, optimizing performance is a primary focus. These IDEs often require more CPU resources than the average IDE. Interface simplicity is something that all IDE development teams must focus on, but it becomes difficult to pack in a lot of features while also keeping the interface from getting too cluttered. So, while this is a core principle of most IDE development teams, it often isn’t the top priority. Something similar to IDEs that focuses on a simple interface over a lot of features are plain text editors like Sublime Text and Atom that allow users to start with a very simple interface and add plugins for different functionalities as they continue to use the software.
+            </p>
+          </div>
+          <div id="solution" class="tab-pane fade">
+            <h3 class="lead">Proposed Solution</h3>
+            <p>For our solution have proposed to develop a two-sided IDE, to allow users to engage in pair/cooperative programming. To ensure pair/cooperative programming is successful we wanted to establish an Integrated Development Environment that can be simultaneously edited run by two or more people with results displayed in real time. Because we are focused on those new to programming, we felt it was necessary to have clear signifiers displaying exactly what a user can and cannot do. In order to make our two-sided IDE successful our interface will afford the ability to be seen on multiple user ends. To fortify productive projects within our interface we will have what many interfaces have, which is distinct signifiers indicating mistakes in code to afford an efficient debugging process. In comparison to existing solutions, we have found that our solution will be similar in some ways. We want the novice user to be introduced into an environment that is not something to be fearful of. We found that many of the current existing solutions focus on the experienced user, thus the actual interface of current project being worked on look intimidating. We want for our users to have a simple yet efficient IDE for programming. Some of the existing solutions such as Code Together, is software needing to be installed on a user’s computer. However, for our approach we found that we wanted our interface to be more web based allowing for data to be centralized and accessible at all times. Allowing users to work from anywhere at any time. We found that the existing solutions are continuously growing and developing to become more efficient and user friendly, however as previously mentioned these technologies focus on those with more experience. We want our solution to be the change that helps those with no to little experience to evolve into successful programmers.
+            </p>
+          </div>
+          <div id="measuring" class="tab-pane fade">
+            <h3 class="lead">Measuring Success</h3>
+            <p>For our design, we will be measuring success three different ways:
+              <ol>
+                <li>Time to Learn &#8212; We will measure users’ time to learn, specifically for completing introductory tasks relevant to our product because measuring how long users take to complete these tasks will help our team understand how simple our design can be, while still maintaining core programming functions. Introductory tasks include creating and removing files, creating and running a simple “Hello World” program, and using the chat and request help features to communicate with the professor.</li>
+                <li>Retention Over Time &#8212; We will measure users’ retention over time over a fixed period because our team wants users to be able to independently use the product, so they require as little assistance from the professor as possible during lectures. We will form tasks and assign them to the user repeatedly throughout the week, monitoring how little they need assistance in the tasks.</li>
+                <li>Subjective Satisfaction &#8212; We will measure the users’ subjective satisfaction because ensuring that our users feel satisfied with using the product will help guide future design and allow our User base to grow. Interviewing users, administering written surveys about their experience, and rating their liking of different features.</li>
+              </ol>
+            </p>
+          </div>
         </div>
+
+
+        <!--
+
+
 
         <object data="images/milestone2.pdf" type="application/pdf" width="100%" height="800px">
           <p>
@@ -73,9 +127,9 @@
             <a href="images/milestone2.pdf">click here to download the PDF file.</a>
           </p>
         </object>
+        -->
 
-        <!--
-        <div class="d-flex p-2">
+        <!-- <div class="d-flex p-2">
           <div class="card" style="width: 18rem;">
             <div class="card-header">
               Featured
@@ -86,8 +140,8 @@
               <li class="list-group-item">Vestibulum at eros</li>
             </ul>
           </div>
-        </div>
-        -->
+        </div> -->
+
       </div>
 		</div>
 

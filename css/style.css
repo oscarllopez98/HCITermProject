@@ -3,13 +3,26 @@
   min-height: 100%;
 }
 
-#milestone2-content {
-  width: 100%
-}
-
 #milestone0-content, #milestone1-content, #milestone2-content{
   display: none;
 }
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+#milestone2-nav-tabs > li {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
