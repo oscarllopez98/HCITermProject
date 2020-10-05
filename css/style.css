@@ -3,6 +3,10 @@
   min-height: 100%;
 }
 
+#milestone2-content {
+  width: 100%
+}
+
 #milestone0-content, #milestone1-content, #milestone2-content{
   display: none;
 }
@@ -8198,7 +8202,8 @@ h1, h2, h3, h4, h5,
   background-position: center center; }
 
 .wrapper {
-  width: 100%; }
+  width: 100%;
+}
 
 #sidebar {
   min-width: 250px;
