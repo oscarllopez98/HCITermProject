@@ -20,7 +20,7 @@
 
 
 //Click to change content
-function fadeChange(changeTo){
+function toContent(changeTo){
 	$(".components").on("click", "*", function(){
 		$('#wrapper').find('.content:visible').each(function(){
 	  	///$(this).fadeOut("fast");
