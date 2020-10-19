@@ -35,6 +35,7 @@ function toContent(changeTo){
 		else {
 			$("#milestone" + changeTo + "-content").show();
 
+			//Need to custom click video so it appears for Milestone2
 			if (changeTo == 2){
 				$("#pill-video").click();
 			}
