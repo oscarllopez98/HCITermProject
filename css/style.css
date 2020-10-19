@@ -1,6 +1,5 @@
 .bordered {
   border: dashed red 2px;
-  width: 100%;
 }
 
 #body, html{
@@ -18,17 +17,26 @@
 
 #milestone0-content, #milestone1-content, #milestone2-content{
   display: none;
+  width: 100%;
+  max-height: 100%;
+  min-height: 100%;
 }
 
 .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    padding: 10px;
 }
 
-.tab-content > div {
-  height: 100%;
+.nav-pills > li{
+  border-style: solid;
+  border-color: #adadad;
+  background-color: #f6f6f6;
+
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-right: .5%;
+  padding-left: .5%;
 }
 
 #milestone2-nav-tabs > li {
