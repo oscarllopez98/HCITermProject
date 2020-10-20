@@ -44,29 +44,32 @@ function toContent(changeTo){
 	});
 }
 
+//Function for opening a specified user's IRB Training Certification
 function openIRB(personNum){
-
 	switch (personNum) {
 		//Open Oscar's cert
 		case 1:
-			window.open("images/certificateOscar_PDF.pdf","_blank");
+			window.open("images/IRB/certificateOscar_PDF.pdf","_blank");
 			break;
 		//Open Bryan's cert
 		case 2:
-			window.open("images/bryan_smith_certificate_PDF.pdf","_blank");
+			window.open("images/IRB/bryan_smith_certificate_PDF.pdf","_blank");
 			break;
 		//Open Holly's cert
 		case 3:
+			window.open("images/IRB/certificate-_Holly_Northen_PDF.pdf","_blank");
 			break;
 		//Open Dakota's cert
 		case 4:
-			break;
-		case 5:
+			window.open("images/IRB/certificateDakota_PDF.pdf","_blank");
 			break;
 		//Open Cass's cert
-		default:
+		case 5:
+			window.open("images/IRB/certificateClayton_PDF.pdf","_blank");
 			break;
-
+		// TODO: Add some error function
+		default:
+			console.log("Could not open IRB Certification!");
+			break;
 	}
-
 }

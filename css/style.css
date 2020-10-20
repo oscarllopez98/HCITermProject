@@ -30,14 +30,28 @@
   max-height: 95%;
 
   .image {
-  opacity: 1;
-  display: block;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
 }
 
-#certificates-row-1 > div{
+.certImg-center {
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  max-height: 50%;
+
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+}
+
+#certificates-row-1 > div, #certificates-row-2 > div, #certificates-row-3 > div{
   margin: auto;
   display: block;
   text-align: center;
@@ -54,11 +68,7 @@
   text-align: center;
 }
 
-.certificate-hover-container:hover #certImgOscar{
-  opacity: 0.3;
-}
-
-.certificate-hover-container:hover #certImgBryan{
+.certificate-hover-middle:hover #certImgOscar, .certificate-hover-middle:hover #certImgBryan, .certificate-hover-middle:hover #certImgHolly, .certificate-hover-middle:hover #certImgDakota, .certificate-hover-middle:hover #certImgClayton{
   opacity: 0.3;
 }
 
