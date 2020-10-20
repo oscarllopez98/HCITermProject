@@ -43,3 +43,30 @@ function toContent(changeTo){
 		}
 	});
 }
+
+function openIRB(personNum){
+
+	switch (personNum) {
+		//Open Oscar's cert
+		case 1:
+			window.open("images/certificateOscar_PDF.pdf","_blank");
+			break;
+		//Open Bryan's cert
+		case 2:
+			window.open("images/bryan_smith_certificate_PDF.pdf","_blank");
+			break;
+		//Open Holly's cert
+		case 3:
+			break;
+		//Open Dakota's cert
+		case 4:
+			break;
+		case 5:
+			break;
+		//Open Cass's cert
+		default:
+			break;
+
+	}
+
+}
