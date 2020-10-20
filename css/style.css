@@ -22,11 +22,21 @@
   min-height: 100%;
 }
 
-.tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+
+.certImg {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  max-height: 95%;
 }
+
+#certificates-row-1 > div{
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+
 
 .nav-pills > li{
   border-style: solid;
