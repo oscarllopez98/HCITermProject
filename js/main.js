@@ -73,3 +73,41 @@ function openIRB(personNum){
 			break;
 	}
 }
+
+/*
+function m3_navbar(linkNum){
+
+	$("#m3-content-0").css('opacity','0');
+	$("#m3-content-1").css('opacity','0');
+	$("#m3-content-2").css('opacity','0');
+	$("#m3-content-3").css('opacity','0');
+	$("#m3-content-4").css('opacity','0');
+
+	switch(linkNum) {
+
+		case 0:
+			console.log("m3_0");
+			$("#m3-content-0").css('opacity','1');
+			break;
+		case 1:
+			console.log("m3_1");
+			$("#m3-content-1").css('opacity','1');
+			break;
+		case 2:
+			console.log("m3_2");
+			$("#m3-content-2").css('opacity','1');
+			break;
+		case 3:
+			console.log("m3_3");
+			$("#m3-content-3").css('opacity','1');
+			break;
+		case 4:
+			console.log("m3_4");
+			$("#m3-content-4").css('opacity','1');
+			break;
+		default:
+			console.log("m3_default");
+			break;
+	}
+}
+*/
